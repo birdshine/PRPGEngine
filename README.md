@@ -1,5 +1,5 @@
 # PRPGEngine
-PRPG is a game engine I am coding in order to learn the python language (v3.) It will be an rpg game maker where everything is based on a d100 probability skill system. If you're skill is 20, a d100 roll of 20 or better would be a success, representing the probability that you would succeed in using that skill 2 times out of 10. 
+PRPG is a game engine I am coding in order to learn the python language (v3.) It will be an rpg game maker where everything is based on a d100 probability skill system. If your skill is 20, a d100 roll of 20 or better would be a success, representing the probability that you would succeed in using that skill 2 times out of 10. 
 
 It currently consists of the following modules:
 
