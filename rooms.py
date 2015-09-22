@@ -18,7 +18,7 @@ If there is a better way to do this please get at me.
 This is a master dictionary of all rooms created.
 """
 ROOMS_MASTER_DICT = {'1234567': 'a premade test room'}
-SKILLS_MASTER_LIST = {
+SKILLS_MASTER_DICT = {
     'athletics': False,
     'alchemy': False,
     'awareness': False,
@@ -56,8 +56,8 @@ class Room:
         self.desc = desc
         """Possible self.exits: Up,down,in,out,se,s,sw,w,nw,n,ne,e."""
         self.exits = {}
-        self.contents = {'player'}
-        self.skill_interaction = SKILLS_MASTER_LIST
+        self.contents = {'player': 'you'}
+        self.skill_interaction = SKILLS_MASTER_DICT
         ROOMS_MASTER_DICT[self.id] = self.alias
 
     def new_exit(self, direction, alias, locked=False):
