@@ -70,13 +70,13 @@ class Die:
         return roll_sum
 
 """Define the most commonly used die."""
-hundredDie = Die()
-twentyDie = Die(20)
-twelveDie = Die(12)
-tenDie = Die(10)
-eightDie = Die(8)
-sixDie = Die(6)
-coinDie = Die(2)
+d100 = Die()
+d20 = Die(20)
+d12 = Die(12)
+d10 = Die(10)
+d8 = Die(8)
+d6 = Die(6)
+d2 = Die(2)
 
 """Copyright Patrick Morgan 2015, you may use, edit, and
 distribute non-commercially.
