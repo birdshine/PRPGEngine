@@ -3,7 +3,9 @@ PRPG is a game engine I am coding in order to learn the python language (v3.) It
 
 It current consists of the following modules:
 dice.py - This module contains all the dice that are used for the roll mechanics of the game.
+
 rooms.py - This module handles rooms, the spaces in which objects (including the player) can reside.
+
 objects.py - This module handles objects, which are every item in the game--including characters such as the player--that is not
             a room or a game mechanic.
 
